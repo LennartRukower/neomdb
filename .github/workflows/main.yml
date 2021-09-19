@@ -37,4 +37,4 @@ jobs:
       - name: Install npm modules
         run: cd server && npm i 
       - name: Start and stop Server
-        run: cd server && npm start && npm stop
+        run: cd server && npm start
