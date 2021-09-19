@@ -36,5 +36,5 @@ jobs:
           echo test, and deploy your project.
       - name: Install npm modules
         run: cd server && npm i 
-      - name: Start Server
-        run: npm start
+      - name: Start and stop Server
+        run: npm start && npm stop
