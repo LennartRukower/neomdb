@@ -24,7 +24,7 @@
     "build": "tsc",
     "start": "ts-node-dev --respawn --transpile-only --poll ./src/server.ts",
     "prod": "npm run build && npm run start",
-    "lint": "tslint --project ./"
+    "lint": "tslint --project ./",
     "test": "echo Testing..."
   }
 }
