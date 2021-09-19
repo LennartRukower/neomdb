@@ -35,6 +35,6 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
       - name: Install npm modules
-        run: cd server && npm i
+        run: cd server && npm i 
       - name: Start Server
-        run: cd server && npm start
+        run: npm start
